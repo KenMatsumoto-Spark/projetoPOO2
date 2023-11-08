@@ -7,7 +7,7 @@ package fatec.poo.view;
 
 /**
  *
- * @author Gabii
+ * @author DiogoGuilhermeMarcioVictor
  */
 public class GuiHospede extends javax.swing.JFrame {
 
