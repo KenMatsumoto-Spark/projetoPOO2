@@ -52,7 +52,7 @@ public class GuiRegistroHospedagem extends javax.swing.JFrame {
         btnSair = new javax.swing.JButton();
         lblNumeroQuarto = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Registro Hospedagem");
 
         jLabel1.setText("Código");

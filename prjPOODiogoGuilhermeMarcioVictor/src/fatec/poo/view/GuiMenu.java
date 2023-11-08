@@ -30,7 +30,7 @@ public class GuiMenu extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        jMenuBar2 = new javax.swing.JMenuBar();
+        jMenu = new javax.swing.JMenuBar();
         jMenuCadastro = new javax.swing.JMenu();
         jMenuItemQuarto = new javax.swing.JMenuItem();
         jMenuItemRecepcionista = new javax.swing.JMenuItem();
@@ -45,7 +45,7 @@ public class GuiMenu extends javax.swing.JFrame {
         jMenu2.setText("Edit");
         jMenuBar1.add(jMenu2);
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("HOTEL POO");
 
         jMenuCadastro.setText("Cadastro");
@@ -82,7 +82,7 @@ public class GuiMenu extends javax.swing.JFrame {
         });
         jMenuCadastro.add(jMenuItemServicoQuarto);
 
-        jMenuBar2.add(jMenuCadastro);
+        jMenu.add(jMenuCadastro);
 
         jMenuRegistro.setText("Registro");
 
@@ -94,9 +94,9 @@ public class GuiMenu extends javax.swing.JFrame {
         });
         jMenuRegistro.add(jMenuItemReservarLiberar);
 
-        jMenuBar2.add(jMenuRegistro);
+        jMenu.add(jMenuRegistro);
 
-        setJMenuBar(jMenuBar2);
+        setJMenuBar(jMenu);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -178,10 +178,10 @@ public class GuiMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuBar jMenu;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenu jMenuCadastro;
     private javax.swing.JMenuItem jMenuItemHospede;
     private javax.swing.JMenuItem jMenuItemQuarto;
